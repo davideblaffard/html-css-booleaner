@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+    padding-left: 30px;
+}
+
+
+/***** HEADER STYLE *****/
+header{
+    background-color: #9cd6f4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header img{
+    height: 130px;
+}
+
+
+/***** MAIN STYLE *****/
+.author-date{
+    color: grey;
+}
+.author-date .author{
+    color: #9cd6f4;
+}
+h5 {
+    font-weight: lighter;
+}
+
+h6 {
+    font-weight: lighter;
+}
+
+.text {
+    background-color: yellow;
+}
+
+
+
+/***** FOOTER STYLE *****/
+
+footer{
+    color: white;
+    background-color: #0b4c77;
+    margin: 0;
+}
+    
+#feet{
+    margin:auto;
+    text-align: center;
+}

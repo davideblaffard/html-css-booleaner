@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>The Booleaner</title>
 </head>
 <body>
     
      <header>
         <!-- logo -->
-         <img src="img/logo.svg" alt="The Booleaner logo">
+         <div class="container">
+            <img src="img/logo.svg" alt="The Booleaner logo">
+        </div>
      </header>
      <main>
+        <div class="container">
         <!-- sezione intro -->
-        <section>
+        <hgroup>
+            
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-                <h5>Scritto da The Booleaner</h5>
-                <h6>il 10/10/2020</h6>
+                <div class="authore-date"></div>    
+                    <h5>Scritto da <span class="author">The Booleaner</span></h5>
+                    <h6>il 10/10/2020</h6>
+        <!-- imgs section -->
+                <section>
                     <img src="img/tim-1.jpg" alt="first">
                     <img src="img/tim-2.jpg" alt="second">
+                </section>
                     <h6>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</h6>
                     <h6>2nd Photo: Wikimedia, by Paul Clarke</h6>
-        </section>
+            </div>
+        </hgroup>
 
         <!-- sezione articolo e informazioni organizzate per elenco -->
 
         <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consequatur qui? Animi temporibus libero quisquam pariatur suscipit sequi, repellat similique nostrum. Incidunt, nihil ab dolore labore accusantium explicabo sit culpa.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud <span class="text">exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
             
             <ul>
                 <li>Lorem ipsum dolor sit amet. cons ectetuer adipiscing elit. sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
@@ -35,14 +44,15 @@
                 <li>Lorem ipsum dolor sit amet. cons ectetuer adipiscing elit. sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
             </ul>
 
-            <table>
+            <table id="article-table-info">
 
                 <thead>
                     <tr>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor</td>
+                        <th>Lorem ipsum dolor</th>
+                        <th>Lorem ipsum dolor</th>
+                        <th>Lorem ipsum dolor</th>     
                     </tr>
+
                 </thead>
 
                 <tbody>
@@ -69,10 +79,11 @@
 
             </table>
         </section>
+    </div>
      </main>
 
      <footer>
-        <h6>Copyright The Booleaner - Tutti i diritti riservati</h6>
+        <h6 id="feet">Copyright The Booleaner - Tutti i diritti riservati</h6>
      </footer>
 </body>
 </html>
